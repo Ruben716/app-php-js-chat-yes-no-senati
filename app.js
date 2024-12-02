@@ -22,7 +22,7 @@ async function getapi() {
     const data = await respuesta.json(); // Captura la respuesta de la API
     console.log(data.answer); // "yes" o "no"
 
-    agregarMensaje(data.answer, false,data.image); // Coloca el mensaje en el chat
+    agregarMensaje(data.answer, false,data.image);  //Coloca el mensaje en el chat
 
 
   } catch (error) {
